@@ -5,9 +5,9 @@ import Col from "react-bootstrap/Col";
 
 function About() {
   return (
-    <div>
-      <NavBar />
+    <>
       <div className="Background-Padding">
+        <NavBar />
         <Row>
           <Col lg={8} className="About-Col-lg">
             <h1 className="About-h1">My Story</h1>
@@ -56,7 +56,7 @@ function About() {
           </Col>
         </Row>
       </div>
-    </div>
+    </>
   );
 }
 

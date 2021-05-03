@@ -1,5 +1,6 @@
 import "../../App.css";
 import "./Home.css";
+
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Jumbotron from "react-bootstrap/Jumbotron";
@@ -7,7 +8,7 @@ import { Link } from "react-router-dom";
 
 function Home() {
   return (
-    <div className="page">
+    <>
       <Row>
         <Col lg className="col-lg-Home">
           <Jumbotron fluid className="Main-img"></Jumbotron>
@@ -40,7 +41,7 @@ function Home() {
           </Jumbotron>
         </Col>
       </Row>
-    </div>
+    </>
   );
 }
 

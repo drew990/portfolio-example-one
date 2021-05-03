@@ -3,6 +3,9 @@ body {
   color: #000;
 }
 
+.App {
+}
+
 p {
   margin-top: 0em;
   margin-bottom: 0em;
@@ -21,6 +24,7 @@ p {
 }
 
 .row {
+  width: 100%;
   margin-left: 0em;
   margin-right: 0em;
   padding-left: 0em;
@@ -96,33 +100,13 @@ p {
 /* Page transitions */
 
 .page {
-  position: relative;
-  top: 0;
-  left: 0;
-  right: 0;
+  display: flex;
+  vertical-align: middle;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100%;
 }
-
-.fade-appear,
-.fade-enter {
-  opacity: 0;
-  z-index: 1;
-}
-.fade-appear-active,
-.fade-enter.fade-enter-active {
-  opacity: 1;
-  transition: opacity 300ms linear 150ms;
-}
-
-.fade-exit {
-  opacity: 1;
-}
-
-.fade-exit.fade-exit-active {
-  opacity: 0;
-  transition: opacity 150ms linear;
-}
-
-/* End of Page transitions */
 
 @media screen and (max-width: 800px) {
   .hover-underline-animation {

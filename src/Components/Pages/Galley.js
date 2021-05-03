@@ -15,9 +15,9 @@ import LookDownCam from "./Gallery Images/LookDownCam.jpg";
 
 function Gallery() {
   return (
-    <div className="page">
-      <NavBar />
+    <>
       <div className="Background-Padding">
+        <NavBar />
         <Row sm>
           <Col lg className="Gallery-Col">
             <Image src={Flower} className="Gallery-Img" />
@@ -48,7 +48,7 @@ function Gallery() {
           </Col>
         </Row>
       </div>
-    </div>
+    </>
   );
 }
 

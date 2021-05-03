@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 function Gallery() {
   return (
-    <div>
+    <>
       <Navbar variant="light">
         <Navbar.Brand className="hover-underline-animation-header Link-style">
           <Link className="link" to="/">
@@ -25,7 +25,7 @@ function Gallery() {
           </Link>
         </Navbar.Brand>
       </Navbar>
-    </div>
+    </>
   );
 }
 

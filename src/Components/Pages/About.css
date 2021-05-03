@@ -1,3 +1,11 @@
+.Background-Padding {
+  padding-top: 0vh;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  padding-bottom: 1vh;
+  min-height: 100vh;
+}
+
 .About-Col-lg {
   height: 100%;
   padding-top: 1vh;
