@@ -1,0 +1,135 @@
+body {
+  font-family: "Raleway", sans-serif;
+  color: #000;
+}
+
+p {
+  margin-top: 0em;
+  margin-bottom: 0em;
+}
+.col {
+  text-align: center;
+}
+
+.link {
+  color: #000;
+}
+
+.link:hover {
+  color: #000;
+  text-decoration: none;
+}
+
+.row {
+  margin-left: 0em;
+  margin-right: 0em;
+  padding-left: 0em;
+  padding-right: 0em;
+}
+
+.jumbotron {
+  padding-top: 0em;
+  padding-bottom: 0em;
+  margin-top: 0em;
+  margin-bottom: 0em;
+}
+
+.Main-img {
+  background-image: url(./Images/Home-Pic.jpg);
+  background-repeat: no-repeat;
+  background-position: 20% 40%;
+  background-size: 100%;
+  width: 100%;
+  height: 100%;
+}
+
+.Filler-background {
+  background-image: radial-gradient(#000 1.59px, transparent 1px);
+  background-size: 100px 100px;
+  background-color: #fff;
+  width: 100%;
+  height: 100%;
+}
+
+.Sub-Contact {
+  padding-top: 1vh;
+  font-size: 3vh;
+  text-align: center;
+}
+
+.Name {
+  padding-top: 2vh;
+  font-size: 4vh;
+  text-align: center;
+}
+
+/* Hover Link Animations */
+
+.hover-underline-animation {
+  font-size: 4vh;
+  margin-top: 20vh;
+  display: inline-block;
+  position: relative;
+  color: #000;
+}
+
+.hover-underline-animation:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 3px;
+  bottom: 0;
+  left: 0;
+  background-color: #000;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+/* End of Hover Link Animations */
+
+/* Page transitions */
+
+.page {
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.fade-appear,
+.fade-enter {
+  opacity: 0;
+  z-index: 1;
+}
+.fade-appear-active,
+.fade-enter.fade-enter-active {
+  opacity: 1;
+  transition: opacity 300ms linear 150ms;
+}
+
+.fade-exit {
+  opacity: 1;
+}
+
+.fade-exit.fade-exit-active {
+  opacity: 0;
+  transition: opacity 150ms linear;
+}
+
+/* End of Page transitions */
+
+@media screen and (max-width: 800px) {
+  .hover-underline-animation {
+    font-size: 3vh;
+    margin-top: 5vh;
+    display: inline-block;
+    position: relative;
+    color: #000;
+  }
+}

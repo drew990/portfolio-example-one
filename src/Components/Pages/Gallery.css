@@ -1,0 +1,27 @@
+.Background-Padding {
+  padding: 1vh 10vw;
+}
+
+.Gallery-Img {
+  border-radius: 0.5rem;
+  height: auto;
+  width: 80%;
+}
+
+.Gallery-Img-2 {
+  border-radius: 0.5rem;
+  height: auto;
+  width: 90%;
+}
+
+.Gallery-Img-3 {
+  border-radius: 0.5rem;
+  height: auto;
+  width: 85%;
+}
+
+.Gallery-Col {
+  height: 100%;
+  padding-top: 1vh;
+  padding-bottom: 2vh;
+}
