@@ -8,5 +8,5 @@ export const animationOne = {
 };
 
 export const transition = {
-  duration: 0.7,
+  duration: 1,
 };
